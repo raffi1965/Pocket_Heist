@@ -5,7 +5,9 @@
       "Bash(npm test tests/components/Avatar.test.tsx -- --run)",
       "Bash(git switch -c claude/feature/authentication-forms)",
       "Bash(git commit -m \"$(cat <<''EOF''\n✨ feat: Add authentication forms for login and signup pages\n\nImplement reusable AuthForm component to enable user authentication on both login and signup pages. The form validates email format and required fields, provides password visibility toggle for better UX, and logs credentials to console for development testing. This establishes the foundation for future backend authentication integration.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
-      "Bash(git add \"app/(public)/login/page.tsx\" \"app/(public)/signup/page.tsx\" \"components/AuthForm/\" \"tests/components/AuthForm.test.tsx\")"
+      "Bash(git add \"app/(public)/login/page.tsx\" \"app/(public)/signup/page.tsx\" \"components/AuthForm/\" \"tests/components/AuthForm.test.tsx\")",
+      "Bash(git add CLAUDE.md)",
+      "Bash(git commit -m \"$(cat <<''EOF''\n🎨 style: Remove trailing newline from CLAUDE.md\n\nRemoves unnecessary blank line at end of file to maintain consistent formatting.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
     ],
     "deny": [],
     "ask": []
