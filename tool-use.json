@@ -1,0 +1,47 @@
+{
+  "session_id": "ea8358a3-6260-4e0f-a696-0fc520214b6b",
+  "transcript_path": "C:\\Users\\rovesian\\.claude\\projects\\D--AI-ClaudeCode-MasterClass-Pocket-Heist\\ea8358a3-6260-4e0f-a696-0fc520214b6b.jsonl",
+  "cwd": "D:\\AI\\ClaudeCode\\MasterClass\\Pocket_Heist",
+  "permission_mode": "acceptEdits",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Edit",
+  "tool_input": {
+    "file_path": "D:\\AI\\ClaudeCode\\MasterClass\\Pocket_Heist\\app\\(public)\\page.tsx",
+    "old_string": "        <p className=\"mt-8\">\n          Turn your office into a playground. Create secret missions, coordinate harmless pranks,\n          and transform mundane workdays into memorable adventures.</p>\n\n\n        <p className=\"mt-4\">\n          From desk drops to surprise deliveries, Pocket Heist helps you plan the perfect prank.\n          Track active missions, manage assignments, and build your archive of legendary heists.</p>",
+    "new_string": "        <p className=\"mt-8\">\n          Turn your office into a playground. Create secret missions, coordinate harmless pranks,\n          and transform mundane workdays into memorable adventures.\n        </p>\n\n        <p className=\"mt-4\">\n          From desk drops to surprise deliveries, Pocket Heist helps you plan the perfect prank.\n          Track active missions, manage assignments, and build your archive of legendary heists.\n        </p>"
+  },
+  "tool_response": {
+    "filePath": "D:\\AI\\ClaudeCode\\MasterClass\\Pocket_Heist\\app\\(public)\\page.tsx",
+    "oldString": "        <p className=\"mt-8\">\n          Turn your office into a playground. Create secret missions, coordinate harmless pranks,\n          and transform mundane workdays into memorable adventures.</p>\n\n\n        <p className=\"mt-4\">\n          From desk drops to surprise deliveries, Pocket Heist helps you plan the perfect prank.\n          Track active missions, manage assignments, and build your archive of legendary heists.</p>",
+    "newString": "        <p className=\"mt-8\">\n          Turn your office into a playground. Create secret missions, coordinate harmless pranks,\n          and transform mundane workdays into memorable adventures.\n        </p>\n\n        <p className=\"mt-4\">\n          From desk drops to surprise deliveries, Pocket Heist helps you plan the perfect prank.\n          Track active missions, manage assignments, and build your archive of legendary heists.\n        </p>",
+    "originalFile": "// this page should be used only as a splash page to decide where a user should be navigated to\n// when logged in --> to /heists\n// when not logged in --> to /login\n\nimport { Clock8 } from \"lucide-react\"\n\nexport default function Home() {\n  return (\n    <div className=\"center-content\">\n      <div className=\"page-content\">\n        <h1>\n          P<Clock8 className=\"logo\" strokeWidth={2.75} />cket Heist\n        </h1>\n        <div>Small crimes. Big laughs.</div>\n\n        <p className=\"mt-8\">\n          Turn your office into a playground. Create secret missions, coordinate harmless pranks,\n          and transform mundane workdays into memorable adventures.</p>\n\n\n        <p className=\"mt-4\">\n          From desk drops to surprise deliveries, Pocket Heist helps you plan the perfect prank.\n          Track active missions, manage assignments, and build your archive of legendary heists.</p>\n        \n\n        <p className=\"mt-4\">\n          Ready to get started? Log in to view your active heists or create a new mission today.\n        </p>\n      </div>\n    </div>\n  )\n}\n",
+    "structuredPatch": [
+      {
+        "oldStart": 15,
+        "oldLines": 12,
+        "newStart": 15,
+        "newLines": 13,
+        "lines": [
+          " ",
+          "         <p className=\"mt-8\">",
+          "           Turn your office into a playground. Create secret missions, coordinate harmless pranks,",
+          "-          and transform mundane workdays into memorable adventures.</p>",
+          "+          and transform mundane workdays into memorable adventures.",
+          "+        </p>",
+          " ",
+          "-",
+          "         <p className=\"mt-4\">",
+          "           From desk drops to surprise deliveries, Pocket Heist helps you plan the perfect prank.",
+          "-          Track active missions, manage assignments, and build your archive of legendary heists.</p>",
+          "+          Track active missions, manage assignments, and build your archive of legendary heists.",
+          "+        </p>",
+          "         ",
+          " ",
+          "         <p className=\"mt-4\">"
+        ]
+      }
+    ],
+    "userModified": false,
+    "replaceAll": false
+  }
+}

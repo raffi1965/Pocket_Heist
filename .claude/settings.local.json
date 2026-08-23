@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(npm test tests/components/Avatar.test.tsx -- --run)"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "for /f \"delims=\" %f in ('jq -r \".tool_input.file_path\"') do @if /i \"%~xf\"==\".ts\" (npx prettier --write \"%f\") else @if /i \"%~xf\"==\".tsx\" (npx prettier --write \"%f\")"
+          }
+        ]
+      }
+    ]
+  }
+}
