@@ -20,7 +20,8 @@
       "mcp__fireBase__firebase_get_sdk_config",
       "Bash(npm view firebase version)",
       "Bash(npm i firebase)",
-      "mcp__fireBase__firebase_deploy_status"
+      "mcp__fireBase__firebase_deploy_status",
+      "Bash(git commit -m \"$(cat <<''EOF''\n✨ feat: Set up Firebase backend with Firestore and Authentication\n\nInitialize Firebase project integration with Cloud Firestore database and email/password authentication. Firestore security rules are configured in test mode to allow unrestricted access during development. Firebase SDK is installed and configured in lib/firebase/config.ts with auth and db exports ready for application use.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
     ],
     "deny": [],
     "ask": []
