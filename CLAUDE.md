@@ -108,3 +108,6 @@ Example test path: `tests/components/Navbar.test.tsx`
  - Do NOT apply tailwind classes directly in component templates unless essential or just 1 at most. If an element needs more than a single tailwind class, combine them into a custom class using the '@apply' directive.
 - Use minimal prject dependencies where possible.
 - Use `git switch -c` command to switch to new branches, not `git checkout`.
+
+## Checking documentation
+- *important* when implementing any lib/framework-specific features, ALWAYS check the appropriate lib/framework document using the Context7 MCP server before writing any code.
