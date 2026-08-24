@@ -7,7 +7,21 @@
       "Bash(git commit -m \"$(cat <<''EOF''\n✨ feat: Add authentication forms for login and signup pages\n\nImplement reusable AuthForm component to enable user authentication on both login and signup pages. The form validates email format and required fields, provides password visibility toggle for better UX, and logs credentials to console for development testing. This establishes the foundation for future backend authentication integration.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
       "Bash(git add \"app/(public)/login/page.tsx\" \"app/(public)/signup/page.tsx\" \"components/AuthForm/\" \"tests/components/AuthForm.test.tsx\")",
       "Bash(git add CLAUDE.md)",
-      "Bash(git commit -m \"$(cat <<''EOF''\n🎨 style: Remove trailing newline from CLAUDE.md\n\nRemoves unnecessary blank line at end of file to maintain consistent formatting.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+      "Bash(git commit -m \"$(cat <<''EOF''\n🎨 style: Remove trailing newline from CLAUDE.md\n\nRemoves unnecessary blank line at end of file to maintain consistent formatting.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "mcp__context7__query-docs",
+      "mcp__context7__resolve-library-id",
+      "mcp__fireBase__firebase_get_environment",
+      "mcp__fireBase__firebase_login",
+      "mcp__fireBase__firebase_create_project",
+      "mcp__fireBase__firebase_list_projects",
+      "mcp__fireBase__firebase_update_environment",
+      "mcp__fireBase__firebase_create_app",
+      "mcp__fireBase__firebase_list_apps",
+      "mcp__fireBase__firebase_get_sdk_config",
+      "Bash(npm view firebase version)",
+      "Bash(npm i firebase)",
+      "mcp__fireBase__firebase_deploy_status",
+      "Bash(git commit -m \"$(cat <<''EOF''\n✨ feat: Set up Firebase backend with Firestore and Authentication\n\nInitialize Firebase project integration with Cloud Firestore database and email/password authentication. Firestore security rules are configured in test mode to allow unrestricted access during development. Firebase SDK is installed and configured in lib/firebase/config.ts with auth and db exports ready for application use.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
     ],
     "deny": [],
     "ask": []
